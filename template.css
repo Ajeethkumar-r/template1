@@ -4,8 +4,9 @@
     height: 3rem;
     width: 50%;
     margin-bottom: 1rem;
-    box-shadow: -9px 3px green;
+    box-shadow: -9px 3px rgb(109, 250, 109);
     margin-left: 25%;
+    color: white;
 
 }
 .input{
@@ -13,7 +14,7 @@
     border-radius: 3px;
     height: 3rem;
     width: 50%;
-    box-shadow: -9px 3px green ;
+    box-shadow: -9px 3px rgb(109, 250, 109) ;
     margin-left: 25%;
     
     
@@ -23,41 +24,55 @@
     border: none;
     font-size: large;
     border-radius: 6px;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(36, 35, 35);
     cursor: pointer;
     padding: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
     margin-left: 23.5%;
     padding-top: 1rem;
+    color: rgb(212, 212, 211);
+    box-shadow: 1px 2px rgb(109, 250, 109);
+    font-family: monospace;
 }
+
 
 .head{
     height: 6rem;
-    background-color: rgb(255, 255, 121);
+    background-color: rgb(118, 138, 124);
     margin:none;
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    /* border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem; */
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     
 }
 .head-hero{
-    padding: 1rem;
+    padding: .9rem;
     text-align: center;
+    color: white;
+    font-size: larger;
 }
 
 #align{
     width: 50%;
-    border: 1px solid black;
+    border: 3px solid rgb(109, 250, 109);
     background-color: rgb(255, 223, 223);
-    border-radius: 8px;
-     padding: 0.5rem; 
-
+    border-radius: 1.2rem;
+    /* padding: 0.5rem;  */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(50, 56, 50);
 }
 
 footer{
     /* height: 3rem; */
-    background-color: rgb(212, 211, 211);
+    background-color: rgb(118, 138, 124);
     padding-top: 1rem;
     margin: none;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; */
 }
 
 #fcontent{
@@ -70,6 +85,7 @@ footer{
     padding-right: 1rem;
     font-size: large;
     color: white;
+    font-family:monospace;
     
 
 }
@@ -82,10 +98,20 @@ footer{
 }
 
 h4{
-    font-size: large;
+
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-weight: 800;
+    font-family:cursive;
     margin-left: 25%;
-    color: ivory;
+    color: rgb(212, 212, 211);
+    text-decoration: underline;
+}
+small{
+    color: greenyellow;
+}
+
+btn.visit{
+    color: black;
+    background-color: greenyellow;
 }
